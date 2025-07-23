@@ -1,0 +1,11 @@
+[Section.amd64]
+Name = Supermium
+Version = 132.0.6834.226 R5
+License = BSD-3-Clause
+Description = Supermium is a current chromium-based Windows XP web browser.
+Category = 5
+URLSite = https://www.win32svubsystem.live/supermium/
+URLDownload = https://www.win32subsystem.live/supermium/downloads/releases/v132-r5/supermium_132_64_setup.exe
+SHA1 = e1b988c11850d397106834b3b100123c716b025a
+SizeBytes = 121634816
+Icon = supermium.ico
