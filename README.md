@@ -1,12 +1,12 @@
-For more information about RAPPS, please take a look at the [wiki](https://reactos.org/wiki/RAPPS) 
+“THIS PROJECT USES A FORK OF THE RAPPS DATABASE FROM THE "ReactOS" PROJECT. ALL CREDIT TO THE ORIGINAL MAINTAINERS.”
 
-ADDING PROGRAMS TO THE RAPPS DATABASE
+ADDING PROGRAMS TO THE repoXP DATABASE
 --------------------------------------------------
 
 Each program entry consists of a text file formatted with an INI-like syntax.
 
 They must be encoded in UTF-8 without BOM (Byte Order Mask) in this repository.
-However, when you are testing a new entry file with RAPPS in ReactOS or Windows, they are stored in UTF-16 LE (Little Endian) encoding in the `rapps` folder on disk - otherwise characters out of the ANSI range will display broken. 
+However, when you are testing a new entry file with repoXP in ReactOS or Windows, they are stored in UTF-16 LE (Little Endian) encoding in the `repoXP` folder on disk - otherwise characters out of the ANSI range will display broken. 
 **Note:** some editors like Notepad++ call this format `UCS-2 Little Endian.`
 
 
@@ -33,8 +33,6 @@ RAPPS also accepts neutral language codes, meaning that you can do things like t
 You can also define an entry without English fallback to make it visible to certain users only.
 For instance; software from 1C, which is mostly for Russian speakers and unusable for anyone else.
 
-For a complete file format overview see the [File Schema on the ReactOS wiki](https://reactos.org/wiki/RAPPS#File_Schema)
-
 The mandatory fields are: *Name*, *Category*, *URLDownload* and *SizeBytes*.
 All other fields are completely optional and can be skipped.
 
@@ -56,5 +54,4 @@ List of valid categories:
  14. Libraries
  15. Themes
  16. Other
-
-The official list of downloadable programs is kept on a public ReactOS server and synced every time RAPPS is launched for the first time.
+The official list of downloadable programs is kept on a public repoXP server and synced every time repoXP is launched for the first time.
